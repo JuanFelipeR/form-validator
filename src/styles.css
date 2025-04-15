@@ -1,0 +1,32 @@
+.error-message {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    display: none; /* oculto por defecto */
+  }
+
+
+input.form-control:focus {
+    border-color: #007bff; /* Cambia el color del borde al hacer foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);   /* Añade un efecto de sombra */
+}
+
+input .form-control {
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición suave para el borde y la sombra */
+}
+
+#alert {
+    display: none; /* Ocultar el alert por defecto */
+}
+
+.alert-message {
+    color: green;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    display: none; /* oculto por defecto */
+}
